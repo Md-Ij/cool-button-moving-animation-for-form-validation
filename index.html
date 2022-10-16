@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make Cool Button Moving Animation for Form Validation</title>
+  <!-- castom css file link up  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- font awesome cdn file link up  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>
+</head>
+<body>
+<div class="container">
+  <img src="img/developer.jpg" alt="image">
+  <form action="login.html" name="formSubmit" id="subForm">
+    <input type="text" placeholder="name" id="name" onclick="resetBtn()" maxlength="30">
+    <input type="email" placeholder="email" id="email" onclick="resetBtn()">
+    <input type="password" placeholder="password" id="password" onclick="resetBtn()" minlength="8">
+    <input type="checkbox" id="check"><label for=""> i agree with the terms and conditions </label>
+    <input type="submit" value="sign up" id="subBtn" onmouseover="mouseOver()">
+  </form>
+</div>
+
+
+
+  <!-- castom javascript file link up  -->
+  <script src="js/script.js"></script>
+</body>
+</html>
